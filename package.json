@@ -1,0 +1,25 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "EnhanceVR",
+  "main": "index.js",
+  "scripts": {
+    "test": "run enhancevr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-ad-adi/EnhanceVR.git"
+  },
+  "author": "Aditya T.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-ad-adi/EnhanceVR/issues"
+  },
+  "homepage": "https://github.com/a-ad-adi/EnhanceVR#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongojs": "^2.4.1"
+  }
+}

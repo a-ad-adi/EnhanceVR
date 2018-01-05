@@ -1,0 +1,142 @@
+/* - Global - */
+body, section{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: auto;
+    text-align: center;
+}
+.tab-heading{
+padding-top: 5%;    
+}
+
+/* - Navbar - */
+
+.header-content {
+    padding: 150 50px;
+    text-align: center;
+}
+.footer{
+padding: 1em;    
+}
+
+div.section {
+    width: 100%;
+    height: 400px;
+}
+
+.section-header{
+    position: relative;
+}
+
+.logo{
+    background: none;
+    padding: 1em;
+    margin: auto;
+    z-index: 1;
+}
+#evr-logo{
+    width: auto;
+    height: 25%;
+    
+}
+.home {
+    position: relative;
+    width: auto;
+    height: 100%;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+
+.news {
+    height: 75%;
+} 
+.research{}
+.gallary{}
+.about-us{
+    height: 72%;
+    display: block;
+}
+.contact-us{
+    height: 75%;
+}
+section.alt{
+    background: linear-gradient(rgba(255, 184, 37,1),rgba(255, 184, 37,0.8))
+    
+}
+span.fa{
+    font-size: 25px;
+    padding: 2px;
+    
+}
+span.fa-facebook{
+    
+}
+span.fa-twitter{
+    
+}
+span.fa-instagram{
+    
+}
+span.fa-youtube{
+    
+}
+/* news */
+#news-carousel{
+    margin: auto;
+}
+
+.news-image{
+    height: 100%;
+}
+.news-content{
+    
+}
+/* About us */
+.i-about-us{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100px;
+}
+
+.d-about-us{
+    height:250px;
+    width:200px;    
+    border: none !important;
+    background-color: transparent;
+}
+
+.b-contact{
+    color: white;
+    background: linear-gradient(rgba(255, 184, 37,1),rgba(255, 184, 37,0.8));
+}
+
+.d-news{
+    height:250px;
+    width:200px;    
+    background: linear-gradient(to bottom, rgb(52, 152, 219), rgb(4, 114, 93));
+}
+
+/* contact-us */
+#name{
+    display: inline;
+}
+#contact{
+    display: inline;
+}
+#email{
+    display: inline;
+}
+#feedback{
+    display: inline;
+}
+
+.feedback-form{
+    border: none;
+    text-align: center;
+}
+
+/*.form-group{
+    text-align: center;
+}*/
